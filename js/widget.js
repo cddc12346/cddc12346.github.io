@@ -783,7 +783,7 @@
                 type: 'loop',
                 drag: 'free',
                 focus: 'center',
-                perPage: 6,
+                perPage: 4,    // [hi] change column
                 focus: 0,
                 autoScroll: {
                     speed: 2,   // [hi] hardcode the carousell speed
