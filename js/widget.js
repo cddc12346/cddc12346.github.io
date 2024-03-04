@@ -89,7 +89,7 @@
     }
     function getDsmSetting(sk_google_reviews, key) {
         // [hi] hardcode the key
-        console.log(key);
+        // console.log(key);
         if (key == "show_average_rating"){
             return 0;
         }
@@ -120,8 +120,8 @@
         // if (key == "show_average_rating"){
         //     return 0;
         // }
-        var result = sk_google_reviews.find("." + key).text();
-        console.log(result);
+        // var result = sk_google_reviews.find("." + key).text();
+        // console.log(result);
         return sk_google_reviews.find("." + key).text();
     }
     function moderateData(sk_google_reviews, reviews) {
