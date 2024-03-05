@@ -20,8 +20,8 @@
         var el = document.getElementsByClassName('dsm-ww-fb-page-reviews')[0];
         el.className = "sk-ww-google-reviews";
     }
-    el.innerHTML = "<div class='first_loading_animation' style='text-align:center; width:100%;'><img src='" + "https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/ripple.svg' class='loading-img' alt='Loading animation' style='width:auto !important;' /></div>";
-    loadCssFile("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/magnific-popup.css");
+    el.innerHTML = "<div class='first_loading_animation' style='text-align:center; width:100%;'><img src='" + "https://cddc12346.github.io/js/test_widget/files/ripple.svg' class='loading-img' alt='Loading animation' style='width:auto !important;' /></div>";
+    loadCssFile("https://cddc12346.github.io/js/test_widget/files/magnific-popup.css");
     loadCssFile("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
     // loadCssFile("https://cddc12346.github.io/js/test_widget/files/font-awesome.min.css");
     function loadCssFile(filename) {
@@ -53,9 +53,9 @@
         scriptLoadHandler();
     }
     function scriptLoadHandler() {
-        loadScript("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/jquery.magnific-popup.min.js", function() {
-            loadScript("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/masonry4.2.2.min.js", function() {
-                loadScript("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/moment.min.js", function() {
+        loadScript("https://cddc12346.github.io/js/test_widget/files/jquery.magnific-popup.min.js", function() {
+            loadScript("https://cddc12346.github.io/js/test_widget/files/masonry4.2.2.min.js", function() {
+                loadScript("https://cddc12346.github.io/js/test_widget/files/moment.min.js", function() {
                     var version = jQuery.fn.jquery;
                     version = version ? parseInt(version.charAt(0)) : 4;
                     main();
@@ -3234,8 +3234,8 @@
                             sk_google_reviews.prepend(settings_html);
                         }
                         if (getDsmSetting(sk_google_reviews, 'layout') == 3) {
-                            loadCssFile("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/swiper.min.css");
-                            loadCssFile("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/swiper.css?v=ranndomchars");
+                            loadCssFile("https://cddc12346.github.io/js/test_widget/files/swiper.min.css");
+                            loadCssFile("https://cddc12346.github.io/js/test_widget/files/swiper.css?v=ranndomchars");
                         }
                         data.css = null;
                         if (data.css) {
@@ -3246,7 +3246,7 @@
 
                             // [hi]
                             // loadCssFile(app_url + "google-reviews/styles.css?v=" + sk_version);
-                            loadCssFile("https://cddc12346.github.io/js/test_widget/https://cddc12346.github.io/js/test_widget/files/body.json.styles.css?v=1");
+                            loadCssFile("https://cddc12346.github.io/js/test_widget/files/body.json.styles.css?v=1");
                         }
                         settings_html = "";
                         if (getDsmSetting(sk_google_reviews, 'layout') == 3) {
