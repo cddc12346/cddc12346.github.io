@@ -901,10 +901,6 @@
         if (feed_h == null) {
             feed_h = sk_google_reviews.find('.sk_reviews_grid').innerHeight();
         }
-        // [hi] this is to adjust rectangle size
-        if (feed_h == 396){
-            feed_h = 350;
-        }
         sk_google_reviews.find(".swiper-wrapper,.swiper-slide,.swiper-layout-slider").css({
             "height": feed_h + "px"
         });
