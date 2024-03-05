@@ -61,9 +61,9 @@ body .sk-ww-google-reviews{
     /* height is changed in widget.js */
     display: block;
     overflow: hidden;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
     margin-bottom:5px;
     
     /* add to center the div */
@@ -464,9 +464,9 @@ body .sk-ww-google-reviews .google-videos-user-root-container{
     overflow: hidden;
     padding:10px 7px;
     margin: 0 0 5px 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
 }
 
 body .sk-ww-google-reviews .google-videos-user-container{
