@@ -103,9 +103,8 @@
         if (key == "autoplay"){ // for automatic swiping
             return 1;  
         }
-
         if (key == "post_height"){    // [hi] this is to adjust rectangle size
-            return 280;
+            return 250;
         }
 
         // if (key == "delay"){    // for automatic swiping (carousel_movement = 0)
@@ -784,7 +783,7 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             alert(screen.width);
-            alert("Updated!");
+            alert("Updated 3!");
             var displayPerPage = 0;
             if (screen.width > 1800){
                 displayPerPage = 6;
