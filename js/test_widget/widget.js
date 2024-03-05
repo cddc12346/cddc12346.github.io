@@ -788,9 +788,9 @@
             if (screen.width > 1800){
                 displayPerPage = 6;
             }
-            else if (screen.width < 500){
-                displayPerPage = 3;
-            }
+            // else if (screen.width < 500){
+            //     displayPerPage = 3;
+            // }
             else{
                 displayPerPage = 4;
             }
