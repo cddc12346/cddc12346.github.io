@@ -782,7 +782,7 @@
         var freeMode = false;
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
-            alert(screen.width);
+            // alert(screen.width);
             alert("Updated 4!");
             var displayPerPage = 0;
             if (screen.width > 1800){
