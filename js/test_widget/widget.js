@@ -2182,10 +2182,13 @@
         } else if (translation == "English - US" || translation == "English - UK") {
             return getEnglishDayMonth(replace);
         } else {
-            return replace;
+            let dateObject = new Date(replace);
+            let formattedDate = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(dateObject);
+            return formattedDate;
+            // return replace;
         }
     }
-    function getEnglishDayMonth(replace) {
+    function getEnglishDayMonth(replace) {        
         return replace;
     }
     function getHebrewDayMonth(replace) {
