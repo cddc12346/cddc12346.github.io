@@ -969,7 +969,7 @@
                         post_html += "</button>";
                     }
                     jQuery('.mfp-content').find(".mfp-close").remove();
-                    jQuery('.mfp-content').prepend('<button title="Close (Esc)" type="button" class="mfp-close" style="right: 0px;">Ã—</button>');
+                    jQuery('.mfp-content').prepend('<button title="Close (Esc)" type="button" class="mfp-close" style="right: 0px;">Close</button>');
                     var left = jQuery(".mfp-content .white-popup").offset().left;
                     var outerWidth = jQuery(".mfp-content .white-popup").outerWidth();
                     var right = left + outerWidth;
