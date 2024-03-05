@@ -783,14 +783,14 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             alert(screen.width);
-            alert("Updated 3!");
+            alert("Updated 4!");
             var displayPerPage = 0;
             if (screen.width > 1800){
                 displayPerPage = 6;
             }
-            // else if (screen.width < 500){
-            //     displayPerPage = 3;
-            // }
+            else if (screen.width < 500){
+                displayPerPage = 3;
+            }
             else{
                 displayPerPage = 4;
             }
