@@ -103,9 +103,14 @@
         if (key == "autoplay"){ // for automatic swiping
             return 1;  
         }
+
         if (key == "post_height"){    // [hi] this is to adjust rectangle size
             return 250;
         }
+
+        // if (key == "show_view_on_google_button"){
+        //     return 0;
+        // }
 
         // if (key == "delay"){    // for automatic swiping (carousel_movement = 0)
         //     return 2;
@@ -1350,7 +1355,7 @@
             'background-color': item_bg_color,
             'color': getDsmSetting(sk_google_reviews, "item_font_color"),
             // 'border-radius': getDsmSetting(sk_google_reviews, "item_border_radius") + "px"
-            'border-radius': "25px" // make rounded rectangle
+            'border-radius': "25px" // [hi] make rounded rectangle
         });
         sk_google_reviews.find(".sk_reviews_grid-item").css({
             'cursor': 'pointer'
@@ -2182,6 +2187,7 @@
         } else if (translation == "English - US" || translation == "English - UK") {
             return getEnglishDayMonth(replace);
         } else {
+            // [hi] format time
             let dateObject = new Date(replace);
             let formattedDate = new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(dateObject);
             return formattedDate;
