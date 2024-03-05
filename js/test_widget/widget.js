@@ -1349,7 +1349,8 @@
         sk_google_reviews.find(".sk_reviews_grid-content").css({
             'background-color': item_bg_color,
             'color': getDsmSetting(sk_google_reviews, "item_font_color"),
-            'border-radius': getDsmSetting(sk_google_reviews, "item_border_radius") + "px"
+            // 'border-radius': getDsmSetting(sk_google_reviews, "item_border_radius") + "px"
+            'border-radius': "25px" // make rounded rectangle
         });
         sk_google_reviews.find(".sk_reviews_grid-item").css({
             'cursor': 'pointer'
