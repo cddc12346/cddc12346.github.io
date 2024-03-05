@@ -90,7 +90,7 @@
     }
     function getDsmSetting(sk_google_reviews, key) {
         // [hi] hardcode the key
-        console.log(key);
+        // console.log(key);
         if (key == "show_average_rating"){
             return 0;
         }
@@ -783,7 +783,7 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             // alert(screen.width);
-            alert("Updated 4!");
+            alert("Updated 5!");
             var displayPerPage = 0;
             if (screen.width > 1800){
                 displayPerPage = 6;
