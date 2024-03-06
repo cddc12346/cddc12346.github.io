@@ -130,7 +130,7 @@
         //     return 0;
         // }
         var result = sk_google_reviews.find("." + key).text();
-        console.log(result);
+        // console.log(result);
         return sk_google_reviews.find("." + key).text();
     }
     function moderateData(sk_google_reviews, reviews) {
@@ -788,7 +788,7 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             // alert(screen.width);
-            alert("Updated 5!");
+            alert("Updated 6!");
             var displayPerPage = 0;
             if (screen.width > 1800){
                 displayPerPage = 6;
@@ -1148,7 +1148,7 @@
                 "height": parseInt(post_height) + (padding_) + "px"
             });
             hoverContent(sk_google_reviews);
-            setTimeout(function() {
+            // setTimeout(function() {
                 jQuery(".sk-ww-google-reviews-content").each(function() {
                     var main_h = (post_height - (padding_ * 2)) + 10;
                     var header = jQuery(this).find('.sk-ww-google-reviews-reviewer').height();
@@ -1162,7 +1162,7 @@
                         "overflow": "hidden"
                     });
                 });
-            }, 1000);
+            // }, 10);
         });
     }
     function applyCustomUi(jQuery, sk_google_reviews) {
@@ -1234,11 +1234,15 @@
             'font-family': font_family
         });
         sk_google_reviews.find('.sk-ww-google-reviews-review-text-content div').css({
-            'font-family': font_family,
+            'font-family': font_family
         });
         sk_google_reviews.find('.google-videos-user-root-container a, .sk-ww-google-reviews-content a').css({
             'color': details_link_color
         });
+
+        // [hi] just do it earlier lol
+        setReviewsFeedHeight(sk_google_reviews, true);
+
         sk_google_reviews.find(".google-videos-user-root-container a, .sk-ww-google-reviews-content a").mouseover(function() {
             jQuery(this).css({
                 'color': details_link_hover_color
