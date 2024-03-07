@@ -108,9 +108,9 @@
             return 250;
         }
 
-        if (key == "show_view_on_google_button"){
-            return 1;
-        }
+        // if (key == "show_view_on_google_button"){
+        //     return 0;
+        // }
 
         // if (key == "delay"){    // for automatic swiping (carousel_movement = 0)
         //     return 2;
@@ -501,14 +501,9 @@
             post_items += " <span style='font-family: FontAwesome !important;' aria-hidden='true'>&#xf005;</span>";
         }
         post_items += "</div>";
-         
-        // post_items += "<div>";
-        // this css works but its still overflowing, maybe have to go up higher
-        post_items += '<div style="overflow:auto">';          
-        post_items += review_text;  // this is the shit that overflow
-        // alert(review_text)        
+        post_items += "<div>";
+        post_items += review_text;
         post_items += "</div>";
-
         if (review_text.length > character_limit && character_limit > 0)
             post_items += "<div><span>" + see_more_text + "</span></div>";
         post_items += "</div>";
@@ -792,13 +787,13 @@
         var freeMode = false;
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
-            alert(window.innerWidth);
-            alert("Updated 7!");
+            // alert(screen.width);
+            alert("Updated 6!");
             var displayPerPage = 0;
-            if (window.innerWidth > 1800){
+            if (screen.width > 1800){
                 displayPerPage = 6;
             }
-            else if (window.innerWidth < 1000){
+            else if (screen.width < 500){
                 displayPerPage = 3;
             }
             else{
@@ -1059,7 +1054,7 @@
         var imgs = sk_google_reviews.find('img');
         var len = imgs.length;
         if (getDsmSetting(sk_google_reviews, 'layout') == 3) {
-            // setReviewsFeedHeight(sk_google_reviews, true);
+            setReviewsFeedHeight(sk_google_reviews, true);
             skLayoutSliderArrowUI(sk_google_reviews);
         } else if (getDsmSetting(sk_google_reviews, 'layout') == 1) {
             setReviewsFeedHeight(sk_google_reviews, true);
@@ -1096,10 +1091,10 @@
         if (getDsmSetting(sk_google_reviews, 'show_view_on_google_button') == 1) {
             sk_google_reviews.find('.sk-ww-google-reviews-content-container .sk-google-review-button-more').css({
                 'position': 'absolute',
-                'bottom': '15px'
+                'bottom': bottom + 'px'
             });
             sk_google_reviews.find('.sk-ww-google-reviews-review-text').css({
-                'margin-bottom': '15px'
+                'margin-bottom': bottom + 'px'
             });
         }
     }
@@ -1149,7 +1144,6 @@
                 post_height = maxHeight;
             }
             var padding_ = parseInt(getDsmSetting(sk_google_reviews, "item_content_padding"));
-            padding_ = 20;
             sk_google_reviews.find(".sk_reviews_grid-content").css({
                 "height": parseInt(post_height) + (padding_) + "px"
             });
@@ -1269,9 +1263,7 @@
             'font-family': font_family
         });
         sk_google_reviews.find('.sk-ww-google-reviews-review-text, .sk-ww-google-reviews-owners-response-text, .sk-ww-google-reviews-reviewer').css({
-            // 'font-size': getDsmSetting(sk_google_reviews, "details_font_size") + "px"
-            'font-size': "14px",
-            "scrollbar-width": "thin"
+            'font-size': getDsmSetting(sk_google_reviews, "details_font_size") + "px"
         });
         sk_google_reviews.find('.sk-google-reviews-badge-info').css({
             'font-size': getDsmSetting(sk_google_reviews, "title_font_size") + "px"
