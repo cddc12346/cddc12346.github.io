@@ -20,6 +20,7 @@
         var el = document.getElementsByClassName('dsm-ww-fb-page-reviews')[0];
         el.className = "sk-ww-google-reviews";
     }
+    var mobile_ver = 0;
     el.innerHTML = "<div class='first_loading_animation' style='text-align:center; width:100%;'><img src='" + "https://cddc12346.github.io/js/test_widget/files/ripple.svg' class='loading-img' alt='Loading animation' style='width:auto !important;' /></div>";
     loadCssFile("https://cddc12346.github.io/js/test_widget/files/magnific-popup.css");
     loadCssFile("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
@@ -789,7 +790,6 @@
         const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
         return regex.test(navigator.userAgent);
       }
-    mobile_ver = 0;  
     if (isMobile()) {
         mobile_ver = 1;
         console.log("Mobile device detected");
