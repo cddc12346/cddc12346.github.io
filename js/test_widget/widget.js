@@ -1026,7 +1026,7 @@
                     }
                     if(mobile_ver){
                         jQuery('.mfp-content').find(".sk-ww-google-reviews-review-text-popup").css({
-                            "font-size": "25px"
+                            "font-size": "30px"
                         })
                     }
                     
