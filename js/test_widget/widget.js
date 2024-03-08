@@ -787,15 +787,16 @@
     }
     function isMobile() {
         const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+        alert(userAgent);
         return regex.test(navigator.userAgent);
       }
     if (isMobile()) {
         mobile_ver = 1;
-        console.log("Mobile device detected");
+        alert("Mobile device detected");
     } 
     else {
         mobile_ver = 0;
-        console.log("Desktop device detected");
+        alert("Desktop device detected");
     }
 
     function skSliderLayoutSettings(sk_google_reviews) {
