@@ -810,15 +810,27 @@
             alert(window.innerWidth);
             alert("Updated 10!");
             var displayPerPage = 0;
-            if (window.innerWidth > 1800){
-                displayPerPage = 6;
+            if (!mobile_ver){
+                if (window.innerWidth > 1800){
+                    displayPerPage = 6;
+                }
+                else if (window.innerWidth < 900){
+                    displayPerPage = 3;
+                }
+                else{
+                    displayPerPage = 4;
+                }
+            }            
+            if (mobile_ver){
+                if (window.innerWidth < 850){
+                    displayPerPage = 2;
+                }
+                else{
+                    displayPerPage = 3;
+                }
             }
-            else if (window.innerWidth < 900){
-                displayPerPage = 3;
-            }
-            else{
-                displayPerPage = 4;
-            }
+            
+            
             
             var delay = parseInt(getDsmSetting(sk_google_reviews, "delay"));
             splide = new Splide('#sk_splide',{
@@ -1286,7 +1298,7 @@
         });
         var review_text_font_size;
         if (mobile_ver == 1){
-            review_text_font_size = "17px";
+            review_text_font_size = "19px";
         }
         else{
             review_text_font_size = "14px";

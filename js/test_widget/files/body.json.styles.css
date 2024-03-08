@@ -715,7 +715,8 @@ a img{
 
 .sk-ww-google-reviews-review-text-content, 
 .sk-ww-google-reviews-review-text-popup {
-    white-space: pre-line
+    white-space: pre-line;
+    font-size: 25px;
 }
 
 .sk-ww-google-reviews-review-text{
