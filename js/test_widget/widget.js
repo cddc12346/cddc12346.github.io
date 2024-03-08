@@ -787,7 +787,7 @@
     }
     function isMobile() {
         const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-        alert(userAgent);
+        alert(navigator.userAgent);
         return regex.test(navigator.userAgent);
       }
     if (isMobile()) {
@@ -807,7 +807,7 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             alert(window.innerWidth);
-            alert("Updated 12!");
+            alert("Updated 13!");
             var displayPerPage = 0;
             if (!mobile_ver){
                 if (window.innerWidth > 1800){
