@@ -807,7 +807,7 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             alert(window.innerWidth);
-            alert("Updated 11!");
+            alert("Updated 12!");
             var displayPerPage = 0;
             if (!mobile_ver){
                 if (window.innerWidth > 1800){
