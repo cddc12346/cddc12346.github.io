@@ -821,7 +821,7 @@
                 }
             }            
             if (mobile_ver){
-                if (window.innerWidth < 900){
+                if (window.innerWidth < 1000){
                     displayPerPage = 2;
                 }
                 else{
