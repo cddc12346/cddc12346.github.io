@@ -821,7 +821,7 @@
                 }
             }            
             if (mobile_ver){
-                if (window.innerWidth < 1000){
+                if (window.innerWidth < 900){
                     displayPerPage = 2;
                 }
                 else{
@@ -1264,15 +1264,19 @@
         var button_text_color = sk_google_reviews.find('.button_text_color').text();
         var button_hover_bg_color = sk_google_reviews.find('.button_hover_bg_color').text();
         var button_hover_text_color = sk_google_reviews.find('.button_hover_text_color').text();
+        alert("New font weight");
         sk_google_reviews.css({
             'font-family': font_family,
+            'font-weight': 400,
             'background-color': details_bg_color,
             'width': sk_google_reviews_width
         });
         jQuery('.sk-pop-google-videos-post').css({
+            'font-weight': 400,
             'font-family': font_family
         });
         sk_google_reviews.find('.sk-ww-google-reviews-review-text-content div').css({
+            'font-weight': 400,
             'font-family': font_family
         });
         sk_google_reviews.find('.google-videos-user-root-container a, .sk-ww-google-reviews-content a').css({
