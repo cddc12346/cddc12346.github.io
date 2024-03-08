@@ -785,6 +785,20 @@
         }
         return return_user_solutions;
     }
+    function isMobile() {
+        const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+        return regex.test(navigator.userAgent);
+      }
+    mobile_ver = 0;  
+    if (isMobile()) {
+        mobile_ver = 1;
+        console.log("Mobile device detected");
+    } 
+    else {
+        mobile_ver = 0;
+        console.log("Desktop device detected");
+    }
+
     function skSliderLayoutSettings(sk_google_reviews) {
         var embed_id = sk_google_reviews.attr('data-embed-id');
         var loop = false;
@@ -793,17 +807,18 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             alert(window.innerWidth);
-            alert("Updated 7!");
+            alert("Updated 8!");
             var displayPerPage = 0;
             if (window.innerWidth > 1800){
                 displayPerPage = 6;
             }
-            else if (window.innerWidth < 1000){
+            else if (window.innerWidth < 900){
                 displayPerPage = 3;
             }
             else{
                 displayPerPage = 4;
             }
+            
             var delay = parseInt(getDsmSetting(sk_google_reviews, "delay"));
             splide = new Splide('#sk_splide',{
                 type: 'loop',
@@ -1268,9 +1283,18 @@
             'color': item_font_color,
             'font-family': font_family
         });
+        var review_text_font_size;
+        if (mobile_ver == 1){
+            review_text_font_size = "17px";
+        }
+        else{
+            review_text_font_size = "14px";
+        }
+        alert(review_text_font_size);
         sk_google_reviews.find('.sk-ww-google-reviews-review-text, .sk-ww-google-reviews-owners-response-text, .sk-ww-google-reviews-reviewer').css({
             // 'font-size': getDsmSetting(sk_google_reviews, "details_font_size") + "px"
-            'font-size': "14px",
+            // 'font-size': "14px",
+            'font-size': review_text_font_size,
             "scrollbar-width": "thin"
         });
         sk_google_reviews.find('.sk-google-reviews-badge-info').css({
