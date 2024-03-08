@@ -789,7 +789,7 @@
         const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
         alert(navigator.userAgent);
         return regex.test(navigator.userAgent);
-      }
+    }
     if (isMobile()) {
         mobile_ver = 1;
         alert("Mobile device detected");
@@ -821,7 +821,7 @@
                 }
             }            
             if (mobile_ver){
-                if (window.innerWidth < 850){
+                if (window.innerWidth < 1000){
                     displayPerPage = 2;
                 }
                 else{
