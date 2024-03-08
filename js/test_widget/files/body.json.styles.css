@@ -713,10 +713,11 @@ a img{
     font-weight:bold;
 }
 
-.sk-ww-google-reviews-review-text-content, 
+.sk-ww-google-reviews-review-text-content{
+    white-space: pre-line;
+}
 .sk-ww-google-reviews-review-text-popup {
     white-space: pre-line;
-    font-size: 25px;
 }
 
 .sk-ww-google-reviews-review-text{

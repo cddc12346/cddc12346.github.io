@@ -507,7 +507,6 @@
         // this css works but its still overflowing, maybe have to go up higher
         post_items += '<div style="overflow:auto">';          
         post_items += review_text;  // this is the shit that overflow
-        // alert(review_text)        
         post_items += "</div>";
 
         if (review_text.length > character_limit && character_limit > 0)
@@ -788,7 +787,6 @@
     }
     function isMobile() {
         const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-        alert(navigator.userAgent);
         return regex.test(navigator.userAgent);
       }
     if (isMobile()) {
@@ -808,7 +806,7 @@
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
             alert(window.innerWidth);
-            alert("Updated 10!");
+            alert("Updated 11!");
             var displayPerPage = 0;
             if (!mobile_ver){
                 if (window.innerWidth > 1800){
@@ -1025,6 +1023,12 @@
                     if (splide && splide.Components && splide.Components.AutoScroll) {
                         splide.Components.AutoScroll.pause()
                     }
+                    if(mobile_ver){
+                        jQuery('.mfp-content').find(".sk-ww-google-reviews-review-text-popup").css({
+                            "font-size": "25px"
+                        })
+                    }
+                    
                 },
                 close: function() {
                     hidePopUp();
@@ -1303,7 +1307,6 @@
         else{
             review_text_font_size = "14px";
         }
-        alert(review_text_font_size);
         sk_google_reviews.find('.sk-ww-google-reviews-review-text, .sk-ww-google-reviews-owners-response-text, .sk-ww-google-reviews-reviewer').css({
             // 'font-size': getDsmSetting(sk_google_reviews, "details_font_size") + "px"
             // 'font-size': "14px",
@@ -3301,6 +3304,7 @@
 
                             // [hi]
                             // loadCssFile(app_url + "google-reviews/styles.css?v=" + sk_version);
+                            // loadCssFile("http://192.168.1.189:8080/files/body.json.styles.css?v=1");
                             loadCssFile("https://cddc12346.github.io/js/test_widget/files/body.json.styles.css?v=1");
                         }
                         settings_html = "";
