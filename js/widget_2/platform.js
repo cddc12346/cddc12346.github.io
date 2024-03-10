@@ -611,11 +611,12 @@
                         t.status || v.logError("Boot failed because " + t.reason, t.data), b = Object.assign({}, b, t.data.widgets), v.loadAssets(t.data.assets), m.forEach(v.initWidget.bind(v)), x = x.filter(function(e) {
                             return !i.includes(e)
                         }), e && e()
-                    }, r.send()
+                    }, r.send() // gets widget setrtings
                 }
             }, v.getPage = function() {
                 try {
                     var e = document.location.href;
+                    e = "file:///D:/GitHub/cddc12346.github.io/js/widget_2/hello-widget-test.html";
                     if (d.test(e)) return new URL(e).toString()
                 } catch (e) {}
             }, v.getPlatformUrl = function() {
@@ -917,13 +918,13 @@
             }, t.initWidget = function(n, r) {
                 if (i) {
                     r.websiteUrl = window.location.host || "undefined";
-                    alert("New url!");
+                    r.websiteUrl = "undefined";
+                    alert("New url 2!");
                     var a = {
                             widgetId: r.id || null,
                             widgetToken: r.public_widget_token || null,
                             widgetOrigin: "apps.elfsight.com",
-                            // websiteUrl: r.websiteUrl,
-                            websiteUrl: "undefined",
+                            websiteUrl: r.websiteUrl,
                             deactivate: 1 === r.preferences.disable_widget,
                             deactivatedWidgetUrl: r.preferences.deactivated_widget_url,
                             showElfsightLogo: !r.preferences.hide_elfsight_logo,
