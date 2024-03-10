@@ -606,7 +606,8 @@
                         w: i.join(","),
                         page: v.getPage()
                     });
-                    r.open("get", a + "?" + s), r.withCredentials = !0, r.onload = function() {
+                    r.open("get", "https://cddc12346.github.io/js/widget_2/core.service.elfsight.com.json"), r.withCredentials = !0, r.onload = function() { // this is the line that increments
+                    // r.open("get", a + "?" + s), r.withCredentials = !0, r.onload = function() { // this is the line that increments
                         var t = JSON.parse(r.response);
                         t.status || v.logError("Boot failed because " + t.reason, t.data), b = Object.assign({}, b, t.data.widgets), v.loadAssets(t.data.assets), m.forEach(v.initWidget.bind(v)), x = x.filter(function(e) {
                             return !i.includes(e)
