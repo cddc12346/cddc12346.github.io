@@ -917,11 +917,13 @@
             }, t.initWidget = function(n, r) {
                 if (i) {
                     r.websiteUrl = window.location.host || "undefined";
+                    alert("New url!");
                     var a = {
                             widgetId: r.id || null,
                             widgetToken: r.public_widget_token || null,
                             widgetOrigin: "apps.elfsight.com",
-                            websiteUrl: r.websiteUrl,
+                            // websiteUrl: r.websiteUrl,
+                            websiteUrl: "undefined",
                             deactivate: 1 === r.preferences.disable_widget,
                             deactivatedWidgetUrl: r.preferences.deactivated_widget_url,
                             showElfsightLogo: !r.preferences.hide_elfsight_logo,
