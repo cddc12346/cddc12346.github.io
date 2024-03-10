@@ -787,16 +787,16 @@
     }
     function isMobile() {
         const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-        alert(navigator.userAgent);
+        // alert(navigator.userAgent);
         return regex.test(navigator.userAgent);
     }
     if (isMobile()) {
         mobile_ver = 1;
-        alert("Mobile device detected");
+        // alert("Mobile device detected");
     } 
     else {
         mobile_ver = 0;
-        alert("Desktop device detected");
+        // alert("Desktop device detected");
     }
 
     function skSliderLayoutSettings(sk_google_reviews) {
@@ -806,8 +806,8 @@
         var freeMode = false;
         var autoplay = false;
         if (getDsmSetting(sk_google_reviews, "smooth_carousel_movement") == 1) {
-            alert(window.innerWidth);
-            alert("Updated 13!");
+            // alert(window.innerWidth);
+            // alert("Updated 13!");
             var displayPerPage = 0;
             if (!mobile_ver){
                 if (window.innerWidth > 1800){
@@ -1264,7 +1264,7 @@
         var button_text_color = sk_google_reviews.find('.button_text_color').text();
         var button_hover_bg_color = sk_google_reviews.find('.button_hover_bg_color').text();
         var button_hover_text_color = sk_google_reviews.find('.button_hover_text_color').text();
-        alert("New font weight");
+        // [hi] font weight
         sk_google_reviews.css({
             'font-family': font_family,
             'font-weight': 400,
