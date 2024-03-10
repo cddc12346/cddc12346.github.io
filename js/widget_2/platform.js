@@ -920,7 +920,7 @@
                 if (i) {
                     r.websiteUrl = window.location.host || "undefined";
                     r.websiteUrl = "undefined";
-                    alert("New url 2!");
+                    alert("New url 3!");
                     var a = {
                             widgetId: r.id || null,
                             widgetToken: r.public_widget_token || null,
