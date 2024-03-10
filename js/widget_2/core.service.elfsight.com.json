@@ -47,12 +47,12 @@
 						"carouselArrowColorOnHover": "rgba(255, 255, 255, 1)",
 						"carouselArrowSize": 32,
 						"carouselPaginationColor": "rgba(17, 17, 17, 1)",
-						"carouselColumnsMode": "auto",
+						"carouselColumnsMode": "custom",
 						"carouselColumnsDesktopLarge": 5,
 						"carouselColumnsDesktopMedium": 4,
 						"carouselColumnsDesktopSmall": 3,
 						"carouselColumnsTablet": 2,
-						"carouselColumnsMobile": 1,
+						"carouselColumnsMobile": 2,
 						"carouselItemSpacing": 20,
 						"carouselRows": 1,
 						"carouselRowsOnMobile": 1,
@@ -301,9 +301,9 @@
 					"meta": {
 						"widget_name": "Untitled Google Reviews",
 						"app_name": "Google Reviews",
-						"thumbnail_url": "https://services-universe-prod.sfo3.digitaloceanspaces.com/widget-thumbnails/5a5bb316-cd1e-48cd-9fc2-35bed464f24f@2x.png"
+						"thumbnail_url": "https://services-universe-prod.sfo3.digitaloceanspaces.com/widget-thumbnails/1d191fe4-4483-4e2e-8d87-e52aab7791f1@2x.png"
 					},
-					"public_widget_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiUFVCTElDIiwid2lkZ2V0UGlkIjoiOGUzZmZmNTktYTNiZS00NTZkLThlMGEtZTY1ZjA3YWUwNzRmIiwid2lkZ2V0UmV2aXNpb25QaWQiOiJmMDFiNzM3ZC01ZTdmLTQ1NDYtODhmZS02NWI1YmRiZWRjZTYiLCJhY2NvdW50UGlkIjoiMGRhM2Y5OTItOTM3Mi00ZmZlLWI0YTctOWFmYjRkOTE3MjFiIiwic3ViIjoiOGUzZmZmNTktYTNiZS00NTZkLThlMGEtZTY1ZjA3YWUwNzRmIiwidmVyIjoiZjAxYjczN2QtNWU3Zi00NTQ2LTg4ZmUtNjViNWJkYmVkY2U2IiwiaWF0IjoxNzEwMDcwNzEzLCJleHAiOjE3MTcyNzA3MTN9.Bx6V5-Rtin2pjzXJFhlgW8PMlSuDN3HMXb2PNCKILjmQqFNLH9FyOoxCzVYraOEVK0J9cC0LeQdweTqTrV1bXM391FIzbiWy7ZCY9GB7kkjAXrD_9xHdgH0-mvllX6ofKRReUPKOikTXsa3dfRwj19w_8DDLGmjp83h3MK1Rvw3-m-XqOGMJT_BCdXJhAkGF3rGrGs4Iw9QEwkDmiK-UbxNn2ZW9VzAoZj95WOGFvEUJVM4RsCjziwVUQOfOwj9HU4UOFmECLzr2NZwKLA-6QqerD7Ggc4D7Qeanxe4tiQyjx-rMYRJPY5chYkCJJTWfODhDSVJ9DU_ULYJJa2j7xoWt7E8rEDRcJ_ZMziqMUCNTm0md8-11B7tOaf0BaaLSOPTF2Cf2RH22Tp7_QsE1Dlf2IZvq7wQh2fdlwSVhksO2A_p2HX22jjnDTVmDLG1Q8yaT50mlQdr_CJoMIaCsXICiNQGwfaD7LuW1bPWcTq28MTdOUo_-oZgAqwY2hlR_mYmcXOBqVhoiLSy4lKt7s1vsoIjhDHVw2BbyC1PJ92hSioe2r4VKB3qE9_JwtPUt7jZyLCR9hilpVUB5u8CoDJzdymuYtESKLvaW5GQiXmwNH79lKQ46uU0O-qVoyLTZaf9JTK-PmodyC_qeoerUTJGQat2LDmqiEinVA_mJYGY"
+					"public_widget_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiUFVCTElDIiwid2lkZ2V0UGlkIjoiOGUzZmZmNTktYTNiZS00NTZkLThlMGEtZTY1ZjA3YWUwNzRmIiwid2lkZ2V0UmV2aXNpb25QaWQiOiIzOTRiNTg1MC0zMDRjLTRmNzItOTk0Ni0xOWQ0NzQwZDQxOTYiLCJhY2NvdW50UGlkIjoiMGRhM2Y5OTItOTM3Mi00ZmZlLWI0YTctOWFmYjRkOTE3MjFiIiwic3ViIjoiOGUzZmZmNTktYTNiZS00NTZkLThlMGEtZTY1ZjA3YWUwNzRmIiwidmVyIjoiMzk0YjU4NTAtMzA0Yy00ZjcyLTk5NDYtMTlkNDc0MGQ0MTk2IiwiaWF0IjoxNzEwMDcyNDAyLCJleHAiOjE3MTcyNzI0MDJ9.j6fsewSJm0NZKZxN2zgkOFBYzUkTDTQmv54rgruY-UDRK4-RZnd5Rlh-LrMcyJr59WLp4ZyR_l81TtSbrik49Z3es60Kj6OuIdsWhuXBW8adE39p75VPVJS53jsr8ayyY6u79Ns-1TwWNAV37JSB9WI_0Q5ymjslEXeh7UViiXsPSbVC693666BkGHslBRmcdJ68AIDCk6me0dg44QWRqzLrwgIitZ-4K0doRWocbd6LvFAjy_FmP1xLEY5VNwr5F2blLxmBjwWC2UfR3N0FzZMKYS9ZT-oD7XdbLYDIV7swn0OERxt3ntFWQtXhDIyc_BY_pJEDKX9FTPhw-zh69fE8xIHoizW0XzHmUe9HgLI5QUFiuQQdlBueZQuB4L2vzCHmQc_LjTgCVjV377CTzLIyA9x8jj40SgXI7f8Bhl1SEggNk7vwGJ74NpvMfocr8j9KpF2hxIldBIphwHrBHvpbgPSpDQjexu_iOJ_RIw9K4iy5lWc3BD8UkfBNUFzGOQ_OIRZqdEOJ7-NdUXtE4dd-CqyShL2Y_bTfLSUfBPOMjX-0Gajwu9Jfn-jcOZUAumcvOJLELPnPFw3QQonWgpR2liBShPLjWnDcAn1JFm0qBd5kCv3weocK4GJ9a05fefYGhmpP4MrRbKsK3EcfD83N-bjLn7cdM8ZoixJcowA"
 				}
 			}
 		},
