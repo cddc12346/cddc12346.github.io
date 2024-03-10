@@ -1,1 +1,0 @@
-Browse to the .html. Extract the json response from the /boot url.
