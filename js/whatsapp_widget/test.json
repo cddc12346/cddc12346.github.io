@@ -7,7 +7,7 @@
           "data": {
             "app": "whatsapp-chat",
             "settings": {
-              "name": "John Doe",
+              "name": "John Doe Poop",
               "nameCaptionType": "online",
               "nameCaptionReplyTime": "Typically replies within a day",
               "nameCaptionCustom": "",
@@ -94,12 +94,12 @@
             },
             "percentage": 0,
             "preferences": {
-              "hide_elfsight_logo": 0,
+              "hide_elfsight_logo": 1,
               "disable_widget": 0,
               "deactivated_widget_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=increaseViews",
               "display_deactivation": false,
               "deactivation_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=increaseViews",
-              "display_free_link": true,
+              "display_free_link": false,
               "display_free_link_remove": false,
               "free_link_anchor": "Free WhatsApp Chat widget",
               "free_link_url": "https://elfsight.com/whatsapp-chat-widget/?utm_source=websites&utm_medium=clients&utm_content=whatsapp-chat&utm_term=%website_domain%&utm_campaign=free-widget",
