@@ -240,9 +240,9 @@
                     w: i.join(","),
                     page: b.getPage()
                 });
-                // o.open("get", "https://cddc12346.github.io/js/whatsapp_widget/test.json"),
+                o.open("get", "https://cddc12346.github.io/js/whatsapp_widget/test.json"),
                 // o.open("get", "http://localhost/test.json"),
-                o.open("get", a + "?" + s), 
+                // o.open("get", a + "?" + s), 
                 o.withCredentials = 0,
                 o.onload = function() {
                     var t = JSON.parse(o.response);
