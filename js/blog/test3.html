@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python Programming for Beginners</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    header, section {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    code, pre {
+      background-color: #f0f0f0;
+      padding: 8px;
+      border-radius: 6px;
+      display: block;
+      margin: 10px 0;
+      overflow-x: auto;
+    }
+    .center {
+      text-align: center;
+    }
+    .highlight {
+      color: #e67e22;
+      font-weight: bold;
+    }
+    .email {
+      background: #fffbcc;
+      padding: 10px;
+      border-left: 4px solid #f1c40f;
+    }
+    img, video {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🐍 Python Programming for Beginners</h1>
+  <p><strong>Fun for both kids and parents — learn together with zero programming experience!</strong></p>
+
+  <ul>
+    <li>🎮 Make an autoclicker for games like <strong>MapleStory PQ</strong> or <strong>Roblox</strong></li>
+    <li>💻 Keep your computer awake by simulating key presses</li>
+    <li>⏱️ Automate boring clicking tasks while working or studying</li>
+  </ul>
+
+  <div class="center">
+    <!-- Embed GIF using Google Drive iframe preview -->
+    <iframe 
+      src="https://drive.google.com/file/d/1O4y1zuutispj8w0Us-5u4OoLRV2at3pA/preview" 
+      width="480" 
+      height="360" 
+      allow="autoplay"
+      style="border: none;">
+    </iframe>
+    
+    <p style="margin-top: 10px; font-style: italic; color: #666;">
+      Remember the times we were auto-clicking through MapleStory PQ games? 😄
+    </p>
+  </div>
+  
+
+  <p>These might seem like small tricks — but with just a bit of <span class="highlight">Python</span>, you can build them <strong>yourself</strong>!</p>
+</header>
+
+<section>
+  <h2>👋 Welcome!</h2>
+  <p>In this beginner-friendly session, we will be learning how to:</p>
+  <pre>
+    1. Install Python on your computer
+
+    2. Use Python libraries — powerful public tools 
+       that you can use to do cool things faster
+
+    3. Have fun with coding and do anything you want!
+  </pre>
+</section>
+
+
+<section>
+  <h2>✅ Step 1: Install Python</h2>
+  <p>If you're using <strong>Windows</strong>:</p>
+  <ol>
+    <li>Visit <a href="https://www.python.org/downloads/windows/" target="_blank">python.org/downloads/windows</a></li>
+    <li>Download the latest Windows installer</li>
+    <li>Check <strong>"Add Python to PATH"</strong> before clicking "Install Now"</li>
+  </ol>
+
+  <div class="center">
+    <!-- Insert screen recording video -->
+    <video width="640" height="360" controls>
+      <source src="https://cddc12346.github.io/js/blog/HackerSchoolBlog1.m4v" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<section>
+  <h2>📦 Step 2: Using Python Libraries</h2>
+  <p>Python has thousands of libraries that help you build things easily. To make an autoclicker, we’ll use a library called <strong>pyautogui</strong>.</p>
+  <ol>
+    <li>Open your <strong>Command Prompt</strong> (press the windows start, type <code>cmd</code>, and hit Enter)</li>
+    <br>
+    <li>Run the following command:</li>
+    <pre><li><code>pip install pyautogui</code></li></pre>
+  </ol>
+  
+  <div class="center">
+    <!-- Insert video -->
+    <video controls>
+      <source src="https://cddc12346.github.io/js/blog/2. pip install pyautogui.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+
+<section>
+  <h2>🎮 Step 3: Let's Have Some Fun!</h2>
+
+  <p>Let’s start by learning how to control your mouse and keyboard using Python!</p>
+
+  <h3>🖱️ Click the Mouse</h3>
+  <p>This code will click at a specific location on your screen:</p>
+  <pre><code>import pyautogui
+
+pyautogui.click(x=100, y=200)  # Replace with your own coordinates
+</code></pre>
+
+  <h3>⌨️ Type with the Keyboard</h3>
+  <p>This code will type out a string as if you were typing it yourself:</p>
+  <pre><code>import pyautogui
+
+pyautogui.typewrite("Hello from Python!")
+</code></pre>
+
+  <h3>🌐 Let’s Try a Real Example</h3>
+  <p>Our goal: Automatically type <strong>"www.hackerschool.com"</strong> into your browser’s search bar. To do this, we need two steps:</p>
+
+  <ol>
+    <li>Click on the browser’s search bar</li>
+    <li>Type <code>www.hackerschool.com</code></li>
+  </ol>
+
+  <p>But wait — how do we know where the search bar is on the screen?</p>
+  <p>We can use a helpful tool from <code>pyautogui</code> called <code>mouseInfo()</code> to find the exact X and Y coordinates of your mouse pointer.</p>
+
+  <div class="center">
+    <video controls>
+      <source src="https://cddc12346.github.io/js/blog/4. complete script.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <p>With this knowledge, you can start building your own browser automations, autoclickers, and more!</p>
+</section>
+
+
+<section>
+  <h2>🕹️ Challenge Time!</h2>
+  <p>Try this challenge: we made a simple website with a button. Your goal is to click it <strong>10,000 times</strong> with your Python code!</p>
+
+  <div class="center">
+    <!-- Insert GIF of the game -->
+    <img src="button-game.gif" alt="Button Click Game">
+  </div>
+
+  <div class="email">
+    <p>🎥 <strong>Send us your screen recording</strong> and 📝 <strong>your script</strong> to:</p>
+    <p><strong>Email:</strong> hackerschool@gmail.com</p>
+    <p>We'll give you a <strong>free trial to HackerSchool</strong> as a reward!</p>
+  </div>
+</section>
+
+</body>
+</html>
