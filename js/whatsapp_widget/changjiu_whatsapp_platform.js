@@ -242,7 +242,7 @@
                 });
 
                 // o.open("get", a + "?" + s),
-                o.open("get", "https://cddc12346.github.io/js/whatsapp_widget/changjiu.json"),
+                o.open("get", "https://cddc12346.github.io/js/whatsapp_widget/changjiu_whatsapp.json"),
                 o.withCredentials = !0,
                 o.onload = function() {
                     var t = JSON.parse(o.response);
