@@ -2,316 +2,111 @@
   "status": 1,
   "data": {
     "widgets": {
-      "8e3fff59-a3be-456d-8e0a-e65f07ae074f": {
+      "131b7f25-9a4f-4355-b9c1-b6a8380b88bb": {
         "status": 1,
         "data": {
-          "app": "google-reviews",
+          "app": "whatsapp-chat",
           "settings": {
-            "_dynamicSourceMode": false,
-            "dynamicSources": [],
-            "attributeSource": "",
-            "sources": [
-              {
-                "type": "google",
-                "id": "0",
-                "url": "ChIJ-zlHz-0j2jERhPVzpcf4KGc"
-              }
+            "name": "Changjiu Wedding",
+            "nameCaptionType": "replyTime",
+            "nameCaptionReplyTime": "Typically replies in minutes",
+            "nameCaptionCustom": "",
+            "align": "right",
+            "bubbleText": "",
+            "welcomeMessage": "\u003Cdiv\u003EHi there 👋\u003C/div\u003E\u003Cbr\u003E\u003Cdiv\u003EHow can I help you?\u003C/div\u003E",
+            "buttonIconVisible": true,
+            "position": "floating",
+            "whereToDisplayChat": "allPages",
+            "excludedPages": [],
+            "specificPages": [],
+            "timeOnPage": "0",
+            "scrollPosition": "0",
+            "onPageLoad": false,
+            "displayDays": [0, 1, 2, 3, 4, 5, 6],
+            "timeSchedule": false,
+            "displayStartTime": {
+              "type": "time",
+              "time": "09:00"
+            },
+            "displayEndTime": {
+              "type": "time",
+              "time": "17:00"
+            },
+            "rememberVisitor": 1,
+            "buttonText": "Start Chat",
+            "windowWidth": "360px",
+            "devicesToDisplay": [
+              "mobile",
+              "desktop"
             ],
-            "filterMinRating": 5,
-            "filterTotalCount": 0,
-            "filterExcludeKeywords": [],
-            "filterIncludeKeywords": [],
-            "sorting": "date",
-            "previewSources": [],
-            "AISummary": false,
-            "AISummaryStyle": "list",
-            "AISummaryTypingAnimation": true,
-            "AISummaryPictureAnimation": true,
-            "AISummaryLabelColor": {
-              "type": "gradient",
-              "color": "rgb(255, 120, 0)",
-              "gradient": [
-                "#8D38FF",
-                "#197BFF"
-              ]
-            },
-            "widgetWidth": {
-              "auto": false,
-              "customValue": 1280
-            },
-            "layout": "carousel",
-            "carouselArrowBackgroundColor": "rgba(17, 17, 17, 0.5)",
-            "carouselArrowColor": "rgba(255, 255, 255, 1)",
-            "carouselArrowBackgroundColorOnHover": "rgba(17, 17, 17, 1)",
-            "carouselArrowColorOnHover": "rgba(255, 255, 255, 1)",
-            "carouselArrowSize": 32,
-            "carouselPaginationColor": "rgba(17, 17, 17, 1)",
-            "carouselColumnsMode": "custom",
-            "carouselColumnsDesktopLarge": 5,
-            "carouselColumnsDesktopMedium": 4,
-            "carouselColumnsDesktopSmall": 3,
-            "carouselColumnsTablet": 2,
-            "carouselColumnsMobile": 2,
-            "carouselItemSpacing": 20,
-            "carouselRows": 1,
-            "carouselRowsOnMobile": 1,
-            "carouselScrollMode": "item",
-            "carouselAutoplay": true,
-            "carouselAutoplayPauseOnHover": true,
-            "carouselAutoplayInterval": 3000,
-            "carouselAnimationType": "slide",
-            "carouselAnimationSpeed": 740,
-            "carouselPagination": true,
-            "carouselArrowsEnable": true,
-            "carouselArrowsShowOnHover": true,
-            "carouselArrowsOnMobileEnable": true,
-            "carouselSwipeDesktopEnable": true,
-            "carouselSwipeMobileEnable": true,
-            "carouselRtl": false,
-            "sliderAutoplay": false,
-            "sliderAutoplayPauseOnHover": true,
-            "sliderAutoplayInterval": 5000,
-            "sliderAnimationType": "slide",
-            "sliderAnimationSpeed": 740,
-            "sliderPagination": true,
-            "sliderArrowsEnable": true,
-            "sliderArrowsShowOnHover": false,
-            "sliderArrowsOnMobileEnable": true,
-            "sliderSwipeDesktopEnable": true,
-            "sliderSwipeMobileEnable": true,
-            "sliderRtl": false,
-            "gridColumnsMode": "auto",
-            "gridColumnsDesktopLarge": 5,
-            "gridColumnsDesktopMedium": 4,
-            "gridColumnsDesktopSmall": 3,
-            "gridColumnsTablet": 2,
-            "gridColumnsMobile": 1,
-            "gridItemSpacing": 20,
-            "gridShowLoadMoreButton": true,
-            "gridRows": 3,
-            "gridRowsOnMobile": 3,
-            "listItemSpacing": 20,
-            "listShowLoadMoreButton": true,
-            "listItemsPerPage": 8,
-            "listItemsPerPageOnMobile": 8,
-            "masonryColumnsMode": "auto",
-            "masonryColumnsDesktopLarge": 5,
-            "masonryColumnsDesktopMedium": 4,
-            "masonryColumnsDesktopSmall": 3,
-            "masonryColumnsTablet": 2,
-            "masonryColumnsMobile": 1,
-            "masonryItemSpacing": 20,
-            "masonryShowLoadMoreButton": true,
-            "masonryItemsPerPage": 8,
-            "masonryItemsPerPageOnMobile": 8,
-            "reviewLayout": "classic",
-            "reviewSourceStyle": "logoBottom",
-            "reviewDisplayImages": false,
-            "reviewDisplayOwnerReply": true,
-            "reviewDisplayAuthorName": true,
-            "reviewDisplayVerifiedBadge": true,
-            "reviewDisplayAuthorPicture": true,
-            "reviewDisplayDate": true,
-            "reviewDisplayRating": true,
-            "reviewDisplaySource": true,
-            "reviewTextDisplayMode": "short",
-            "reviewPreviewLinesNumber": 3,
-            "reviewTextColor": "rgba(17, 17, 17, 1)",
-            "reviewInfoColor": "rgba(17, 17, 17, 0.5)",
-            "reviewAuthorNameColor": "rgba(17, 17, 17, 1)",
-            "reviewVerifiedBadgeColor": "rgba(25, 123, 255, 1)",
-            "reviewSourceIconBackgroundColor": "rgba(248, 248, 248, 1)",
-            "reviewBackgroundColor": "rgba(17, 17, 17, 0.05)",
-            "reviewSourceNameColor": "rgba(25, 123, 255, 1)",
-            "reviewSourceImageColor": {
-              "type": "native",
-              "color": "rgba(25, 123, 255, 1)"
-            },
-            "reviewTextFontSize": {
-              "fontSize": 16
-            },
-            "reviewRatingSize": "medium",
-            "reviewCornerRadius": 24,
-            "reviewOutlineColor": "transparent",
-            "font": {
-              "value": "Montserrat",
-              "googleFont": true
-            },
-            "theme": {
-              "type": "light",
-              "accentColor": "rgba(25, 123, 255, 1)"
-            },
+            "showChatTo": "allVisitors",
+            "timeOnSite": 0,
+            "notifications": [
+              "bubbleBadge",
+              "tabTitle"
+            ],
+            "buttonBorderRadius": 24,
+            "bubbleAnimationInterval": "10",
+            "bubbleAnimationEnabled": true,
+            "messageBackgroundColor": "rgb(255, 255, 255)",
+            "chatWallpaper": "rgb(255, 255, 255)",
+            "bubbleBackgroundColor": "rgb(14, 193, 47)",
+            "bubbleIconColor": "rgb(255, 255, 255)",
+            "headerBackgroundColor": "rgb(9, 94, 84)",
+            "notificationBadgeColor": "rgb(255, 0, 0)",
+            "userOnlinePoint": "rgb(74, 213, 4)",
             "customCSS": "",
-            "widgetTitle": true,
-            "widgetTitleTitle": "What our customers say",
-            "widgetTitleCaption": "",
-            "widgetTitleTitleColor": "rgba(17, 17, 17, 1)",
-            "widgetTitleCaptionColor": "rgba(17, 17, 17, 0.7)",
-            "widgetTitleLinksColor": "rgba(25, 123, 255, 1)",
-            "widgetTitleAlignment": "center",
-            "widgetTitleTitleTextStyle": {
-              "fontSize": 24,
-              "fontWeight": "bold",
-              "fontStyle": "normal"
-            },
-            "widgetTitleCaptionTextStyle": {
-              "fontSize": 16,
-              "fontStyle": "normal"
-            },
-            "displayTabs": true,
-            "tabElements": [
-              "icon",
-              "name",
-              "rating"
-            ],
-            "tabsGrouping": false,
-            "tabsSourceImageColor": {
-              "type": "native",
-              "color": "rgba(25, 123, 255, 1)"
-            },
-            "tabsTextFontSize": {
-              "fontSize": 14
-            },
-            "displayHeader": false,
-            "headerElements": [
-              "title",
-              "rating",
-              "reviewsNumber",
-              "button"
-            ],
-            "headerTextColor": "rgba(17, 17, 17, 1)",
-            "headerBackgroundColor": "rgba(17, 17, 17, 0.05)",
-            "headerCornerRadius": 8,
-            "headerSourceImageColor": {
-              "type": "native",
-              "color": "rgba(25, 123, 255, 1)"
-            },
-            "ratingColor": "rgba(252, 191, 2, 1)",
-            "ratingStyle": "common",
-            "bookingRatingColorStyle": "native",
-            "bookingRatingBackgroundColor": "rgba(0, 53, 128, 1)",
-            "bookingRatingNumberColor": "rgba(255, 255, 255, 1)",
-            "bookingBadgeElements": [
-              "logo",
-              "totalReviews"
-            ],
-            "bookingBadgeRatingColorStyle": "native",
-            "bookingBadgeRatingBackgroundColor": "rgba(0, 53, 128, 1)",
-            "bookingBadgeRatingNumberColor": "rgba(255, 255, 255, 1)",
-            "writeReviewButton": {
-              "mode": "contain",
-              "color": "rgba(25, 123, 255, 1)",
-              "fontColor": "rgb(255, 255, 255)",
-              "font": {
-                "fontSize": 14,
-                "fontWeight": "bold"
-              },
-              "borderRadius": 4,
-              "horizontalPadding": 23,
-              "verticalPadding": 10,
-              "size": 14,
-              "fullWidth": false
-            },
-            "badgePosition": "left",
-            "badgeElements": [
-              "sources",
-              "title",
-              "totalReviews"
-            ],
-            "badgeTitle": "",
-            "badgeSidebar": true,
-            "badgeCloseButton": false,
-            "badgeCloseButtonColor": "rgba(64, 64, 64, 1)",
-            "badgeTextColor": "rgba(17, 17, 17, 1)",
-            "badgeBackgroundColor": "rgba(250, 250, 250, 1)",
-            "badgeRatingColor": "rgba(252, 191, 2, 1)",
-            "badgeSourceImageColor": {
-              "type": "native",
-              "color": "rgba(25, 123, 255, 1)"
-            },
-            "badgeTextFontSize": {
-              "fontSize": 18
-            },
-            "badgeCornerRadius": 8,
-            "loadMoreButton": {
-              "mode": "contain",
-              "color": "rgba(17, 17, 17, 0.05)",
-              "fontColor": "rgba(17, 17, 17, 1)",
-              "font": {
-                "fontSize": 13,
-                "fontWeight": "bold"
-              },
-              "borderRadius": 4,
-              "horizontalPadding": 52,
-              "verticalPadding": 9,
-              "size": 13,
-              "fullWidth": false
-            },
-            "enableExternalLinks": true,
-            "openLinksInNewTab": true,
-            "enableSchemaOrg": true,
-            "ratingFormat": 1,
             "customJS": "",
-            "language": {
-              "language": "en",
-              "label": "English, US",
-              "messages": []
+            "floatingVerticalOffset": 20,
+            "floatingHorizontalOffset": 20,
+            "phone": "6588879834",
+            "bubbleIcon": {
+              "url": "https://static.elfsight.com/icons/app-chats-whatsapp-chat-multicolor.svg"
             },
-            "widgetBackground": {
-              "type": "color",
-              "color": "transparent",
-              "borderRadius": 24
+            "chatMethod": "startChat",
+            "messageFieldColor": "rgb(255, 255, 255)",
+            "messageButtonColor": "rgba(37, 211, 102, 1)",
+            "chatWallpaperMulticolor": {
+              "type": "native",
+              "color": "rgb(230, 221, 212)"
             },
-            "widgetHorizontalPadding": 40,
-            "widgetVerticalPadding": 40,
-            "reviewTooltipBackgroundColor": "rgba(17, 17, 17, 1)",
-            "template": "f2180859-586c-43e1-94d8-bbd26374c33d",
-            "googlePlaceData": {
-              "ChIJ-zlHz-0j2jERhPVzpcf4KGc": {
-                "placeId": "ChIJ-zlHz-0j2jERhPVzpcf4KGc",
-                "name": "ChIJ-zlHz-0j2jERhPVzpcf4KGc",
-                "address": "ChIJ-zlHz-0j2jERhPVzpcf4KGc",
-                "coordinates": {
-                  "lat": 0,
-                  "lng": 0
-                }
-              }
+            "buttonColor": {
+              "type": "custom",
+              "color": "rgb(20, 198, 86)"
             },
-            "widgetId": "8e3fff59-a3be-456d-8e0a-e65f07ae074f",
-            "reviewReadMoreColor": "rgba(17, 17, 17, 0.5)",
-            "autoTranslateReviews": false,
-            "headerLayout": "header1",
-            "reviewHeightNormalization": false,
-            "displayEmptyReviews": false
+            "showChatOnMobile": true,
+            "page": [],
+            "template": "0c3faac6-9279-44b2-a317-fb054272f48d",
+            "widgetId": "131b7f25-9a4f-4355-b9c1-b6a8380b88bb"
           },
           "user": {
             "owner": false
           },
-          "percentage": 0.705,
+          "percentage": 0.745,
           "preferences": {
             "hide_elfsight_logo": 0,
             "disable_widget": 0,
-            "deactivated_widget_url": "https://dash.elfsight.com/apps/google-reviews/pricing?claim=removeBranding&claim=increaseViews",
+            "deactivated_widget_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=increaseViews",
             "display_deactivation": false,
-            "deactivation_url": "https://dash.elfsight.com/apps/google-reviews/pricing?claim=removeBranding&claim=increaseViews",
+            "deactivation_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=increaseViews",
             "display_free_link": true,
             "display_free_link_remove": false,
-            "free_link_anchor": "Free Google Reviews widget",
-            "free_link_url": "https://elfsight.com/google-reviews-widget/?utm_source=websites&utm_medium=clients&utm_content=google-reviews&utm_term=%website_domain%&utm_campaign=free-widget",
-            "free_link_remove_url": "https://dash.elfsight.com/apps/google-reviews/pricing?claim=removeBranding&claim=removeBranding"
+            "free_link_anchor": "Free WhatsApp Chat widget",
+            "free_link_url": "https://elfsight.com/whatsapp-chat-widget/?utm_source=websites&utm_medium=clients&utm_content=whatsapp-chat&utm_term=%website_domain%&utm_campaign=free-widget",
+            "free_link_remove_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=removeBranding"
           },
           "meta": {
-            "widget_name": "Untitled Google Reviews",
-            "app_name": "Google Reviews",
-            "app_version": "3.19.11",
-            "thumbnail_url": "https://services-universe-prod.sfo3.digitaloceanspaces.com/widget-thumbnails/1d191fe4-4483-4e2e-8d87-e52aab7791f1@2x.png"
+            "widget_name": "Whatsapp Chat",
+            "app_name": "WhatsApp Chat",
+            "app_version": "1.19.5",
+            "thumbnail_url": "https://services-universe-prod.sfo3.digitaloceanspaces.com/widget-thumbnails/143a7dfa-eff3-4e9d-9acd-e4e3e2cd7acd@2x.png"
           },
-          "public_widget_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiUFVCTElDIiwid2lkZ2V0UGlkIjoiOGUzZmZmNTktYTNiZS00NTZkLThlMGEtZTY1ZjA3YWUwNzRmIiwid2lkZ2V0UmV2aXNpb25QaWQiOiJjNzFmYjIyZC1kODU5LTRhOGMtOTA1My1lOWZhZmM5NWRkM2UiLCJhcHAiOiJnb29nbGUtcmV2aWV3cyIsImFjY291bnRQaWQiOiIwZGEzZjk5Mi05MzcyLTRmZmUtYjRhNy05YWZiNGQ5MTcyMWIiLCJzdWIiOiI4ZTNmZmY1OS1hM2JlLTQ1NmQtOGUwYS1lNjVmMDdhZTA3NGYiLCJ2ZXIiOiJjNzFmYjIyZC1kODU5LTRhOGMtOTA1My1lOWZhZmM5NWRkM2UiLCJpYXQiOjE3NDcyMzI0MDgsImV4cCI6MTc0NzQwNTIwOH0.C5zoQ8DxIdrtRPC5KnQVQ-NwnaHawbqyhR3TW3RK9HcZjSjtyhyBzSi4i3-sgOnjMn2JqIyRFKyU9wxZ_qT7Js4m3cpJnidA3OopYolpvJ0KxSYYieGG8D83SLH0f7ygGurLjMFRG38Rit4sra_CcHeRyinKnmFFdUW9EaSwFy-puWdhI2cTcNEAOQq3ZImVT44Ru9mCbMBqbDy9HUyy3b9AYvXe2TMtASfi36uArhbQWuTJUlpQrXq6Er5MgMzF3bkyg3C-MSsid9cyIn1u7zjRSgB73HQcVOTTpE8BWIP1kyd7rMQ857TjQmrwSG4x8HrHpsp-1mq8O0_gcsQU2U_adqUIqXn-0OkNrZpr7dlSev11tHBTWBNYeebb4oxTsYK39BFQ0hKQnnpcAfiKTDjMwlpi2FHQeA9LggcnCi8oGqo9uO4JyYgk1l_fKGg8RbbdsslNJp7d6c6vkqjako0hBx0B9yWZJRB9jcIhjkZggkwilHzVjAmYPPnsEtYHYT3RgoKq7hKUv1i42Rm-GB0ZXgwBC0Zlnm6bcA6Ye1hl8rH-Z62Ce6tDonxU3R7C2VNTWz-Q2iql_lxRRElmTr97iaJkIc9GZ3ofXyXpUXC-OC0sJdn43sDrWj4rHnjDHp4KQ2G1Kn5bQrG9jMf1ddg2ULHWCN_OUgQquigP6lg"
+          "public_widget_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiUFVCTElDIiwid2lkZ2V0UGlkIjoiMTMxYjdmMjUtOWE0Zi00MzU1LWI5YzEtYjZhODM4MGI4OGJiIiwid2lkZ2V0UmV2aXNpb25QaWQiOiIyNmQzNWJmNC0yZjQ4LTQ1YTktODU1Mi02ODAzZDJjOTFhMTEiLCJhcHAiOiJ3aGF0c2FwcC1jaGF0IiwiYWNjb3VudFBpZCI6ImMwZDVlYWRjLTQzOTQtNGY4Yy04NzhhLWNhOWIxM2QyNDI0YyIsInN1YiI6IjEzMWI3ZjI1LTlhNGYtNDM1NS1iOWMxLWI2YTgzODBiODhiYiIsInZlciI6IjI2ZDM1YmY0LTJmNDgtNDVhOS04NTUyLTY4MDNkMmM5MWExMSIsImlhdCI6MTc0NzIzMjQwNywiZXhwIjoxNzQ3NDA1MjA3fQ.a1DTEVE4FQJowzrExP16PRdwOCXNlyDP9Y1pjVSTRR9cBH5lRdrr7hwOtpdY4vsnL8vvIf70LKMiaYvhvCRYXbTsoVqlipGmkRax0fMVzuHJCudiE8-MUprixMXKEtJmRIEBXNNnyOzPucP7Afw-M66SEJqJQyphjRWKGI-I5SzuvhwqbxSe1jIYx3cmEqIs3c-g7ENPG2QVqEbtFGzsjQsJlvVhnaArt1B2TyhuWsWvOb9uQ-C_48O5oLGfp8Q1WZRO5vpFQCBzJRrZf0SafT37ZoiIoRiMbOz_6pp1UptlrM32V9_uVtkjQlvXfqkvzzvOAhpkI4stkiy7I4v1RKLSev_i-UUA-gJfZeSIDZJYqMGpqqMlIWT5jFd5mrzYIE71vtyZTG14zLTqVOPmKqmnbT2PkxfADuHoOnjZGZElwXFnJAmsWF2ycznW_L9lXt6JT7dq4W-VReEDzvFbakz7TKhr3-t0N9-etWP_gnY6X8A0mMKUOcykxDkzvgsKmWDKXtXzUQK3MJ40TYTFgyPO3Q5UqUsBETP1RsAGwBWf-kdguJUdvUlFbdXuo9ZJySAs-VFqm3xwIYfZy4ROkZrkdgN9krCf_VEZ6T7yWPfewOwuRIx1oVFVS9Dv9gfjRFZo9cS4BcteSQ3AUTvrtDTMqoJ8tnRdgJOVhcjMVDo"
         }
       }
     },
     "assets": [
-      "https://universe-static.elfsightcdn.com/app-releases/google-reviews/stable/v3.19.11/e75896c401339672971f4ee614d437e4f88701cf/widget/googleReviews.js"
+      "https://universe-static.elfsightcdn.com/app-releases/whatsapp-chat/stable/v1.19.5/26431fb3877a405de255c6e79b6d3921aed3c97f/widget/whatsappChat.js"
     ]
   }
 }
