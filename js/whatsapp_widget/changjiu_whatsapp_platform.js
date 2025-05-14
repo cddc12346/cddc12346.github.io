@@ -243,7 +243,7 @@
 
                 // o.open("get", a + "?" + s),
                 o.open("get", "https://cddc12346.github.io/js/whatsapp_widget/changjiu_whatsapp.json"),
-                o.withCredentials = !0,
+                o.withCredentials = 0,
                 o.onload = function() {
                     var t = JSON.parse(o.response);
                     t.status || b.logError("Boot failed because " + t.reason, t.data),
