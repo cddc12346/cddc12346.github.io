@@ -1,0 +1,129 @@
+{
+  "status": 1,
+  "data": {
+    "widgets": {
+      "45ef67f7-c83b-415f-beef-aab16ec08d13": {
+        "status": 1,
+        "data": {
+          "app": "whatsapp-chat",
+          "settings": {
+            "name": "Homu Media",
+            "nameCaptionType": "online",
+            "nameCaptionReplyTime": "Typically replies within a day",
+            "nameCaptionCustom": "",
+            "align": "right",
+            "bubbleText": "",
+            "welcomeMessage": "<div>Hi there 👋</div><br><div>How can I help you?</div>",
+            "buttonIconVisible": true,
+            "position": "floating",
+            "whereToDisplayChat": "allPages",
+            "excludedPages": [],
+            "specificPages": [],
+            "timeOnPage": "0",
+            "scrollPosition": "0",
+            "onPageLoad": false,
+            "displayDays": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "timeSchedule": false,
+            "displayStartTime": {
+              "type": "time",
+              "time": "09:00"
+            },
+            "displayEndTime": {
+              "type": "time",
+              "time": "17:00"
+            },
+            "rememberVisitor": 1,
+            "buttonText": "Chat on WhatsApp",
+            "windowWidth": "360px",
+            "devicesToDisplay": [
+              "mobile",
+              "desktop"
+            ],
+            "showChatTo": "allVisitors",
+            "timeOnSite": 0,
+            "notifications": [
+              "bubbleBadge",
+              "tabTitle"
+            ],
+            "buttonBorderRadius": 24,
+            "bubbleAnimationInterval": "10",
+            "bubbleAnimationEnabled": true,
+            "messageBackgroundColor": "rgb(255, 255, 255)",
+            "chatWallpaper": "rgb(255, 255, 255)",
+            "bubbleBackgroundColor": "#25d366",
+            "bubbleIconColor": "rgb(255, 255, 255)",
+            "headerBackgroundColor": "#008069",
+            "notificationBadgeColor": "rgb(255, 0, 0)",
+            "userOnlinePoint": "rgb(74, 213, 4)",
+            "customCSS": "",
+            "customJS": "",
+            "floatingVerticalOffset": 20,
+            "floatingHorizontalOffset": 20,
+            "googleAnalytics": [],
+            "phone": "+6588866783",
+            "bubbleIcon": {
+              "url": "https://static.elfsight.com/icons/app-chats-whatsapp-chat-multicolor.svg"
+            },
+            "chatMethod": "startChat",
+            "messageFieldColor": "rgb(255, 255, 255)",
+            "messageButtonColor": "rgba(37, 211, 102, 1)",
+            "chatWallpaperMulticolor": {
+              "type": "native",
+              "color": "rgb(230, 221, 212)"
+            },
+            "buttonColor": {
+              "type": "native",
+              "color": "#25d366"
+            },
+            "widgetId": "45ef67f7-c83b-415f-beef-aab16ec08d13",
+            "showChatOnMobile": true,
+            "buttonsColor": {
+              "type": "native",
+              "color": {
+                "type": "native",
+                "color": "rgb(0, 132, 255)"
+              }
+            },
+            "page": [],
+            "customPicture": null,
+            "template": "0c3faac6-9279-44b2-a317-fb054272f48d"
+          },
+          "user": {
+            "owner": false
+          },
+          "percentage": 0,
+          "preferences": {
+            "hide_elfsight_logo": 1,
+            "disable_widget": 0,
+            "deactivated_widget_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=increaseViews",
+            "display_deactivation": false,
+            "deactivation_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=increaseViews",
+            "display_free_link": false,
+            "display_free_link_remove": false,
+            "free_link_anchor": "Free WhatsApp Chat Widget",
+            "free_link_url": "https://elfsight.com/whatsapp-chat-widget/?utm_source=websites&utm_medium=clients&utm_content=whatsapp-chat&utm_term=%website_domain%&utm_campaign=free-widget",
+            "free_link_remove_url": "https://dash.elfsight.com/apps/whatsapp-chat/pricing?claim=removeBranding&claim=removeBranding"
+          },
+          "meta": {
+            "widget_name": "Untitled WhatsApp Chat",
+            "app_name": "WhatsApp Chat",
+            "app_version": "1.20.3",
+            "thumbnail_url": "https://services-universe-prod.sfo3.digitaloceanspaces.com/widget-thumbnails/31e4f3b0-27e1-4a89-895c-4acd83e31196@2x.png"
+          },
+          "public_widget_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiUFVCTElDIiwid2lkZ2V0UGlkIjoiNDVlZjY3ZjctYzgzYi00MTVmLWJlZWYtYWFiMTZlYzA4ZDEzIiwid2lkZ2V0UmV2aXNpb25QaWQiOiJjMWY0YzQxNy0zZDk0LTQxNTItOWEwOC03OThjNTY3NDcxM2QiLCJhcHAiOiJ3aGF0c2FwcC1jaGF0IiwiYWNjb3VudFBpZCI6ImQzMjZiNjRlLTE1MDMtNGMyNi04NzA0LTg4MmQ2MjJiNWYzZCIsInN1YiI6IjQ1ZWY2N2Y3LWM4M2ItNDE1Zi1iZWVmLWFhYjE2ZWMwOGQxMyIsInZlciI6ImMxZjRjNDE3LTNkOTQtNDE1Mi05YTA4LTc5OGM1Njc0NzEzZCIsImlhdCI6MTc2NzM1ODc5MywiZXhwIjoxNzY3NTMxNTkzfQ.jmTrGEHWLQsRdiWwu9rUF9Lgj6fIokYz36GkWbtqnrR1kL2LasjtN2DJUDocSLKJ-loKHK0j3X6oWxqxLzDxb6nnzwR0ljugj5rCY3os-D_OHmQQG1B9HZ3c76UhsVwD4X26vB5pGNcTC1p_9VLib5UKNXA-AvIO-9iYph1wyWLfatFqyuh8D_tKy17TieYDCqPhT_K5PzJahfTwfT57hxb6Zj_5vg3-UKs9Xw0nlxnmLi3YuMGaKVQdFY9a-GGb9f-WOCTDvWHbLq_hb_8_kERbUQnW-TtDP2NuiqOng8kO9gZli2LWMSqps_DQpOhnkzGF6md0Jim-HvFBb4uLvNM7usf_16w2wtfaPaNqwfclqQNAniHB0a6b0mcH08UW7n8D6n9rJzao9o51z_1nWTRr9lMntS-OXSQI8t7vKOuzPXdiuLdjgdZxZPqqIOHAUdrqxG-ANnUBA3KHBClSPfFCORgcTG5AgGvknU-y3KYm8ZOnG8xF2zIvMChJxzeeVCeHY40uiAdCxm_t6WPQDJVxiPzLhUqy6ZqeY3JSiGZfjqV18HfuycWhGp5Y9HN0erdqXjMJ2wK6h2lVXsdhNk3A2CSFPCffj550FTGrq8NBFXaAxBDaTKcy7tWi0HAL1PKcKzxpybTHUXRD4P1JWshJxJtUkePRk7vSCmMqydM"
+        }
+      }
+    },
+    "assets": [
+      "https://universe-static.elfsightcdn.com/app-releases/whatsapp-chat/stable/v1.20.3/ff090968a0a63d896a07d5703009451cd24a6861/widget/whatsappChat.js"
+    ]
+  }
+}
